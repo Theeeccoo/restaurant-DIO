@@ -8,10 +8,10 @@ export default () => {
     loop: true,
     autoplay: true,
     animationData,
-    rendererSettings: {
+    rendererSetting: {
       preserveAspectRatio: 'xMidYMid slice',
     },
   };
 
-  return <Lottie options={defaultOptions} />;
+  return <Lottie options={defaultOptions} />
 };
